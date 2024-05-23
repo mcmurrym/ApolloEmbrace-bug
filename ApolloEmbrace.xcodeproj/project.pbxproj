@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD0AB6B52BFFC9C100CD1AC4 /* ApolloEmbraceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0AB6B42BFFC9C100CD1AC4 /* ApolloEmbraceApp.swift */; };
+		FD0AB6B72BFFC9C100CD1AC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0AB6B62BFFC9C100CD1AC4 /* ContentView.swift */; };
+		FD0AB6B92BFFC9C200CD1AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0AB6B82BFFC9C200CD1AC4 /* Assets.xcassets */; };
+		FD0AB6BC2BFFC9C200CD1AC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0AB6BB2BFFC9C200CD1AC4 /* Preview Assets.xcassets */; };
+		FD0AB6C42BFFC9FD00CD1AC4 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = FD0AB6C32BFFC9FD00CD1AC4 /* Apollo */; };
+		FD0AB6C72BFFCA2D00CD1AC4 /* EmbraceCore in Frameworks */ = {isa = PBXBuildFile; productRef = FD0AB6C62BFFCA2D00CD1AC4 /* EmbraceCore */; };
+		FD0AB6C92BFFCA2D00CD1AC4 /* EmbraceIO in Frameworks */ = {isa = PBXBuildFile; productRef = FD0AB6C82BFFCA2D00CD1AC4 /* EmbraceIO */; };
+		FD0AB6CC2BFFCA4D00CD1AC4 /* OpenTelemetryApi in Frameworks */ = {isa = PBXBuildFile; productRef = FD0AB6CB2BFFCA4D00CD1AC4 /* OpenTelemetryApi */; };
+		FD0AB6CE2BFFCA4D00CD1AC4 /* OpenTelemetryProtocolExporterHTTP in Frameworks */ = {isa = PBXBuildFile; productRef = FD0AB6CD2BFFCA4D00CD1AC4 /* OpenTelemetryProtocolExporterHTTP */; };
+		FD0AB6D02BFFCA4D00CD1AC4 /* OpenTelemetrySdk in Frameworks */ = {isa = PBXBuildFile; productRef = FD0AB6CF2BFFCA4D00CD1AC4 /* OpenTelemetrySdk */; };
+		FD0AB6D52BFFCC6200CD1AC4 /* CountriesAPI in Frameworks */ = {isa = PBXBuildFile; productRef = FD0AB6D42BFFCC6200CD1AC4 /* CountriesAPI */; };
+		FD0AB6D72BFFCF4F00CD1AC4 /* StdoutExporter in Frameworks */ = {isa = PBXBuildFile; productRef = FD0AB6D62BFFCF4F00CD1AC4 /* StdoutExporter */; };
+		FD0AB6D92BFFCFCB00CD1AC4 /* EmbraceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0AB6D82BFFCFCB00CD1AC4 /* EmbraceController.swift */; };
+		FD0AB6DB2BFFD00300CD1AC4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0AB6DA2BFFD00300CD1AC4 /* Network.swift */; };
+		FD0AB6DD2BFFD03000CD1AC4 /* NetworkInterceptorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0AB6DC2BFFD03000CD1AC4 /* NetworkInterceptorProvider.swift */; };
+		FD0AB6DF2BFFD06500CD1AC4 /* ApolloClient+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0AB6DE2BFFD06500CD1AC4 /* ApolloClient+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD0AB6B12BFFC9C100CD1AC4 /* ApolloEmbrace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApolloEmbrace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0AB6B42BFFC9C100CD1AC4 /* ApolloEmbraceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloEmbraceApp.swift; sourceTree = "<group>"; };
+		FD0AB6B62BFFC9C100CD1AC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FD0AB6B82BFFC9C200CD1AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD0AB6BB2BFFC9C200CD1AC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD0AB6D12BFFCA8A00CD1AC4 /* API.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = API.graphql; sourceTree = "<group>"; };
+		FD0AB6D82BFFCFCB00CD1AC4 /* EmbraceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbraceController.swift; sourceTree = "<group>"; };
+		FD0AB6DA2BFFD00300CD1AC4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		FD0AB6DC2BFFD03000CD1AC4 /* NetworkInterceptorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterceptorProvider.swift; sourceTree = "<group>"; };
+		FD0AB6DE2BFFD06500CD1AC4 /* ApolloClient+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApolloClient+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD0AB6AE2BFFC9C100CD1AC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0AB6C92BFFCA2D00CD1AC4 /* EmbraceIO in Frameworks */,
+				FD0AB6C42BFFC9FD00CD1AC4 /* Apollo in Frameworks */,
+				FD0AB6D72BFFCF4F00CD1AC4 /* StdoutExporter in Frameworks */,
+				FD0AB6CE2BFFCA4D00CD1AC4 /* OpenTelemetryProtocolExporterHTTP in Frameworks */,
+				FD0AB6D52BFFCC6200CD1AC4 /* CountriesAPI in Frameworks */,
+				FD0AB6D02BFFCA4D00CD1AC4 /* OpenTelemetrySdk in Frameworks */,
+				FD0AB6C72BFFCA2D00CD1AC4 /* EmbraceCore in Frameworks */,
+				FD0AB6CC2BFFCA4D00CD1AC4 /* OpenTelemetryApi in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD0AB6A82BFFC9C100CD1AC4 = {
+			isa = PBXGroup;
+			children = (
+				FD0AB6B32BFFC9C100CD1AC4 /* ApolloEmbrace */,
+				FD0AB6B22BFFC9C100CD1AC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD0AB6B22BFFC9C100CD1AC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD0AB6B12BFFC9C100CD1AC4 /* ApolloEmbrace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD0AB6B32BFFC9C100CD1AC4 /* ApolloEmbrace */ = {
+			isa = PBXGroup;
+			children = (
+				FD0AB6D12BFFCA8A00CD1AC4 /* API.graphql */,
+				FD0AB6B42BFFC9C100CD1AC4 /* ApolloEmbraceApp.swift */,
+				FD0AB6B62BFFC9C100CD1AC4 /* ContentView.swift */,
+				FD0AB6DE2BFFD06500CD1AC4 /* ApolloClient+Extension.swift */,
+				FD0AB6D82BFFCFCB00CD1AC4 /* EmbraceController.swift */,
+				FD0AB6DA2BFFD00300CD1AC4 /* Network.swift */,
+				FD0AB6DC2BFFD03000CD1AC4 /* NetworkInterceptorProvider.swift */,
+				FD0AB6B82BFFC9C200CD1AC4 /* Assets.xcassets */,
+				FD0AB6BA2BFFC9C200CD1AC4 /* Preview Content */,
+			);
+			path = ApolloEmbrace;
+			sourceTree = "<group>";
+		};
+		FD0AB6BA2BFFC9C200CD1AC4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FD0AB6BB2BFFC9C200CD1AC4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD0AB6B02BFFC9C100CD1AC4 /* ApolloEmbrace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0AB6BF2BFFC9C200CD1AC4 /* Build configuration list for PBXNativeTarget "ApolloEmbrace" */;
+			buildPhases = (
+				FD0AB6AD2BFFC9C100CD1AC4 /* Sources */,
+				FD0AB6AE2BFFC9C100CD1AC4 /* Frameworks */,
+				FD0AB6AF2BFFC9C100CD1AC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApolloEmbrace;
+			packageProductDependencies = (
+				FD0AB6C32BFFC9FD00CD1AC4 /* Apollo */,
+				FD0AB6C62BFFCA2D00CD1AC4 /* EmbraceCore */,
+				FD0AB6C82BFFCA2D00CD1AC4 /* EmbraceIO */,
+				FD0AB6CB2BFFCA4D00CD1AC4 /* OpenTelemetryApi */,
+				FD0AB6CD2BFFCA4D00CD1AC4 /* OpenTelemetryProtocolExporterHTTP */,
+				FD0AB6CF2BFFCA4D00CD1AC4 /* OpenTelemetrySdk */,
+				FD0AB6D42BFFCC6200CD1AC4 /* CountriesAPI */,
+				FD0AB6D62BFFCF4F00CD1AC4 /* StdoutExporter */,
+			);
+			productName = ApolloEmbrace;
+			productReference = FD0AB6B12BFFC9C100CD1AC4 /* ApolloEmbrace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD0AB6A92BFFC9C100CD1AC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FD0AB6B02BFFC9C100CD1AC4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = FD0AB6AC2BFFC9C100CD1AC4 /* Build configuration list for PBXProject "ApolloEmbrace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD0AB6A82BFFC9C100CD1AC4;
+			packageReferences = (
+				FD0AB6C22BFFC9FD00CD1AC4 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+				FD0AB6C52BFFCA2D00CD1AC4 /* XCRemoteSwiftPackageReference "embrace-apple-sdk" */,
+				FD0AB6CA2BFFCA4D00CD1AC4 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */,
+				FD0AB6D32BFFCC6200CD1AC4 /* XCLocalSwiftPackageReference "CountriesAPI" */,
+			);
+			productRefGroup = FD0AB6B22BFFC9C100CD1AC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD0AB6B02BFFC9C100CD1AC4 /* ApolloEmbrace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD0AB6AF2BFFC9C100CD1AC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0AB6BC2BFFC9C200CD1AC4 /* Preview Assets.xcassets in Resources */,
+				FD0AB6B92BFFC9C200CD1AC4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD0AB6AD2BFFC9C100CD1AC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0AB6B72BFFC9C100CD1AC4 /* ContentView.swift in Sources */,
+				FD0AB6DF2BFFD06500CD1AC4 /* ApolloClient+Extension.swift in Sources */,
+				FD0AB6B52BFFC9C100CD1AC4 /* ApolloEmbraceApp.swift in Sources */,
+				FD0AB6DD2BFFD03000CD1AC4 /* NetworkInterceptorProvider.swift in Sources */,
+				FD0AB6DB2BFFD00300CD1AC4 /* Network.swift in Sources */,
+				FD0AB6D92BFFCFCB00CD1AC4 /* EmbraceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FD0AB6BD2BFFC9C200CD1AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD0AB6BE2BFFC9C200CD1AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD0AB6C02BFFC9C200CD1AC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApolloEmbrace/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bug.ApolloEmbrace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD0AB6C12BFFC9C200CD1AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ApolloEmbrace/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bug.ApolloEmbrace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD0AB6AC2BFFC9C100CD1AC4 /* Build configuration list for PBXProject "ApolloEmbrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0AB6BD2BFFC9C200CD1AC4 /* Debug */,
+				FD0AB6BE2BFFC9C200CD1AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0AB6BF2BFFC9C200CD1AC4 /* Build configuration list for PBXNativeTarget "ApolloEmbrace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0AB6C02BFFC9C200CD1AC4 /* Debug */,
+				FD0AB6C12BFFC9C200CD1AC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		FD0AB6D32BFFCC6200CD1AC4 /* XCLocalSwiftPackageReference "CountriesAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = CountriesAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FD0AB6C22BFFC9FD00CD1AC4 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.12.1;
+			};
+		};
+		FD0AB6C52BFFCA2D00CD1AC4 /* XCRemoteSwiftPackageReference "embrace-apple-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/embrace-io/embrace-apple-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		FD0AB6CA2BFFCA4D00CD1AC4 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/open-telemetry/opentelemetry-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FD0AB6C32BFFC9FD00CD1AC4 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD0AB6C22BFFC9FD00CD1AC4 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		FD0AB6C62BFFCA2D00CD1AC4 /* EmbraceCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD0AB6C52BFFCA2D00CD1AC4 /* XCRemoteSwiftPackageReference "embrace-apple-sdk" */;
+			productName = EmbraceCore;
+		};
+		FD0AB6C82BFFCA2D00CD1AC4 /* EmbraceIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD0AB6C52BFFCA2D00CD1AC4 /* XCRemoteSwiftPackageReference "embrace-apple-sdk" */;
+			productName = EmbraceIO;
+		};
+		FD0AB6CB2BFFCA4D00CD1AC4 /* OpenTelemetryApi */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD0AB6CA2BFFCA4D00CD1AC4 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OpenTelemetryApi;
+		};
+		FD0AB6CD2BFFCA4D00CD1AC4 /* OpenTelemetryProtocolExporterHTTP */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD0AB6CA2BFFCA4D00CD1AC4 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OpenTelemetryProtocolExporterHTTP;
+		};
+		FD0AB6CF2BFFCA4D00CD1AC4 /* OpenTelemetrySdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD0AB6CA2BFFCA4D00CD1AC4 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = OpenTelemetrySdk;
+		};
+		FD0AB6D42BFFCC6200CD1AC4 /* CountriesAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CountriesAPI;
+		};
+		FD0AB6D62BFFCF4F00CD1AC4 /* StdoutExporter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FD0AB6CA2BFFCA4D00CD1AC4 /* XCRemoteSwiftPackageReference "opentelemetry-swift" */;
+			productName = StdoutExporter;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FD0AB6A92BFFC9C100CD1AC4 /* Project object */;
+}
